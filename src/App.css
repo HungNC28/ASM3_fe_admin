@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --white-I: white;
+  --black-I: black;
+  --black-II: rgba(0, 0, 0, 0.5);
+  --purple-I: #6334ff;
+  --gray-I: gray;
+  --gray-II: #ffffff;
+  --gray-III: #e7e7e7;
+  --gray-IV: #d4d4d4;
+  --gray-V: #f2f2f2;
+  --red-I: rgba(255, 0, 0, 1);
+  --red-II: rgba(255, 0, 0, 0.2);
+  --red-III: red;
+  --yellow-I: rgba(131, 131, 0, 1);
+  --yellow-II: rgba(163, 163, 0, 0.2);
+  --green-I: rgba(0, 128, 0, 1);
+  --green-II: rgba(0, 128, 0, 0.2);
+  --purple-I: rgba(128, 0, 128, 1);
+  --purple-II: rgba(128, 0, 128, 0.2);
+}
+
+body {
+  background-color: var(--gray-II);
+}
+
+.sidebar,
+.content,
+.sidebar__container,
+.products__container {
+  height: 90vh;
+}
+
+/* ----------------------------------------------------------------- */
+/* INPUT - START */
+/* ----------------------------------------------------------------- */
+
+.input-underline {
+  width: 100%;
+  background-image: linear-gradient(#0000, #00000052);
+  background-position: bottom 5px center;
+  background-size: calc(100% - 10px) 2px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.input-outline-none:focus {
+  outline: none;
+}
+
+/* ----------------------------------------------------------------- */
+/* INPUT - END */
+/* ----------------------------------------------------------------- */
